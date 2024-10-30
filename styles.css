@@ -1,0 +1,89 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text color */
+}
+
+/* Header styles */
+header {
+    background-color: #35424a; /* Dark color for the header */
+    color: #ffffff; /* White text */
+    padding: 20px; /* Spacing around the header */
+    text-align: center; /* Centered text */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    max-width: 800px; /* Limit the width for better readability */
+    margin: auto; /* Center the main content */
+    background-color: #ffffff; /* White background for main content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px; /* Space between sections */
+}
+
+/* H1, H2, and H3 styles */
+h1 {
+    font-size: 2em; /* Larger font for main title */
+}
+
+h2 {
+    font-size: 1.5em; /* Medium font for section titles */
+    color: #35424a; /* Match the header color */
+    margin-top: 20px; /* Space above */
+}
+
+h3 {
+    font-size: 1.2em; /* Smaller title for subsections */
+    margin-top: 15px; /* Space above */
+}
+
+/* Link styles */
+a {
+    color: #007BFF; /* Bootstrap primary blue for links */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Image styles */
+
+
+/* Style the image */
+.trotinette-image {
+    width: 50%;                /* Set width of the image */
+    height: auto;              /* Maintain aspect ratio */
+    margin-left: 20px;         /* Space between text and image */
+    border-radius: 8px;        /* Optional: Add rounded corners */
+}
+
+/* Flex container for the introduction section */
+.intro-section {
+    display: flex;              /* Use flexbox for layout */
+    align-items: center;       /* Center items vertically */
+    margin-bottom: 20px;      /* Space below the section */
+}
+/* Style for the economy image */
+.elec-image {
+    width: 90%;               /* Set width of the economy image */
+    height: auto;              /* Maintain aspect ratio */
+    margin-top: 20px;          /* Space above the image */
+    margin: 20px auto;       /* Center the image with automatic left and right margins */
+    border-radius: 8px;       /* Optional: Add rounded corners */
+    display: block;           /* Ensure the image is treated as a block element */
+}
